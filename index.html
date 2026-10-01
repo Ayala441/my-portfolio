@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кенжебек Аяла | Жеке Визитка</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 550px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 8px 16px rgba(0, 13, 255, 0.2);
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #1a202c;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #4c51bf;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .bio {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #4a5568;
+            margin-bottom: 25px;
+            text-align: justify;
+            text-align-last: center;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .skill-tag {
+            background-color: #ebf8ff;
+            color: #2b6cb0;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .info-box {
+            background-color: #f7fafc;
+            border-left: 4px solid #4c51bf;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: left;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: block;
+            padding: 12px 20px;
+            background-color: #4c51bf;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #434190;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: #4c51bf;
+            border: 2px solid #4c51bf;
+        }
+
+        .btn-outline:hover {
+            background-color: #4c51bf;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="avatar">АҚ</div>
+        
+        <h1>Кенжебек Аяла</h1>
+        <p class="subtitle">IT Студент / Цифрлық білім беру жүйелерінің маманы</p>
+        
+        <p class="bio">
+            Сәлем! Мен Қазақ ұлттық қыздар педагогикалық университетінің (ЖенПУ) 3-курс студентімін. «Цифрлық білім беру жүйелерін жобалау» (ЦББЖЖ) мамандығы бойынша білім алудамын. 
+        </p>
+
+        <div class="info-box">
+            <strong>Менің мақсатым мен қызығушылықтарым:</strong><br>
+            Білім беру саласын заманауи IT технологиялармен интеграциялау, веб-қосымшалар әзірлеу, деректерді өңдеу және 3D графика мүмкіндіктерін зерттеу. Жаңа бағдарламалау тілдерін меңгеріп, практикалық жобалар жасауды ұнатамын.
+        </div>
+
+        <div class="section-title">Қолданатын технологияларым мен дағдыларым:</div>
+        <div class="skills">
+            <span class="skill-tag">HTML5 & CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Cisco Packet Tracer</span>
+            <span class="skill-tag">3D Animation (Autodesk Maya)</span>
+            <span class="skill-tag">Git / GitHub</span>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/Ayala441" target="_blank" class="btn">GitHub Профилімді қарау</a>
+            <a href="mailto:kenzhebek.ayala@gmail.com" class="btn btn-outline">Байланысу (Email)</a>
+        </div>
+    </div>
+
+</body>
+</html>
